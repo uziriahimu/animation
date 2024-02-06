@@ -1,0 +1,20 @@
+.main {
+  background-color: rgb(0, 0, 31);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  font-size: 5rem;
+  font-weight: 700;
+}
+.alphabate {
+  color: white;
+  transition: all ease-in-out;
+  transition-duration: 50ms;
+}
+.container:hover .alphabate {
+  color: purple;
+}
